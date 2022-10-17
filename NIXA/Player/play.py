@@ -144,7 +144,7 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{GROUP_SUPPORT}"),
                       InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATES_CHANNEL}"),
                   ],[
-                      InlineKeyboardButton(" ᴄʟᴏsᴇ ", callback_data="cls")],
+                      InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="cls")],
                   ]
              )
     if m.sender_chat:
@@ -260,7 +260,7 @@ async def play(c: Client, m: Message):
                             InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
                         ],
                         [
-                            InlineKeyboardButton(" ᴄʟᴏsᴇ ", callback_data="cls")
+                            InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="cls")
                         ]
                     ]
                 )
