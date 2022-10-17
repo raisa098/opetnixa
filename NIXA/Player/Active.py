@@ -10,7 +10,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Zaid.main import bot as app
+
 from config import SUDO_USERS
 from Zaid.Database.active import (
     get_active_chats, get_active_video_chats)
